@@ -1,11 +1,6 @@
-**_Important Notice:_**
-Due to a [change in the AWS Lambda execution environment](https://aws.amazon.com/blogs/compute/upcoming-updates-to-the-aws-lambda-execution-environment/), Serverless Image Handler v3 deployments are functionally broken. To address the issue we have released [minor version update v3.1.1](https://solutions-reference.s3.amazonaws.com/serverless-image-handler/v3.1.1/serverless-image-handler.template). We recommend all users of v3 to run cloudformation stack update with v3.1.1. Additionally, we suggest you to look at v5 of the solution and migrate to v5 if it addresses all of your use cases.
 
-# AWS Serverless Image Handler Lambda wrapper for SharpJS
-A solution to dynamically handle images on the fly, utilizing Sharp (https://sharp.pixelplumbing.com/en/stable/).
-Published version, additional details and documentation are available here: https://aws.amazon.com/solutions/serverless-image-handler/
-
-_Note:_ it is recommended to build the application binary on Amazon Linux.
+# AWS Serverless Image Handler Lambda wrapper for SharpJS(1TM ver.)
+Forked from AWS Serverless Image Handler, for internal use.
 
 ## On This Page
 - [Architecture Overview](#architecture-overview)
