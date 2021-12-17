@@ -12,7 +12,7 @@
         "uuid": "^8.3.0"
     },
     "devDependencies": {
-        "aws-sdk": "2.771.0",
+        "aws-sdk": "^2.1046.0",
         "axios-mock-adapter": "^1.18.2",
         "jest": "^26.4.2"
     },
