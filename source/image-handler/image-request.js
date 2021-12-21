@@ -74,10 +74,10 @@ class ImageRequest {
       }
 
       if (this.ContentType === "image/gif" || this.ContentType === "gif") {
-        // If animated GIF, skip.
         const imageBuffer = Buffer.from(this.originalImage);
         if (Animated(imageBuffer)) {
-          delete this.edits;
+          // If it's an animated GIF, bypass(clear edits).
+          this.edits = [];
         }
       }
 
